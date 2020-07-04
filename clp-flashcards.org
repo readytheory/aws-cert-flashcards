@@ -1,2 +1,94 @@
-* In Well Architcect Framework what is a workload?                  :def:WAF:
+* About this file and tag directory
+  - this is source to make flashcards for aws.
+  - the stuff like :def:WAF: is tags -- "definition", "Well Architected Framework"
+  - hosted at github, pull requests welcome.  Any contribution will be CC0 -- free to reuse/repurpose/remix, no attribution needed; and this file is available under CC0 terms (https://creativecommons.org/share-your-work/public-domain/cc0/)
+  - the format is emacs org format, conversion scripts welcome
+
+** Tags
+WAF: AWS Well Architected Framewok
+TA: AWS Trusted Advisor
+Insp: AWS Inspector
+PHD: AWS Personal Health Dashboard
+Config: AWS Config
+def: definition card
+multi: this is a multiple choice item
+right: for multi, the choice is correct
+wrong: similar to right, but wrong
+
+
+** usage
+This is meant to search as a dataset for making flashcards, quizzes, games. 
+ - Wanted: tags for what type of format each is good for ("def" for example indicates a traditional two-sided flashcard; it could be used in match-def-to-term)
+ - multi/right/wrong: can have any number of wrong and any number of right answer, hypothetical script would make questions selecting just one, or using "all that apply"
+ - Association words for quizlet gravity game
+
+
+
+
+* In Well Architected Framework what is a workload?                 :def:WAF:
 A collection of decoupled componenets
+* Keywords for Trusted Advisor
+ - Best Pactices learned from working with customers
+ - Security
+ - Fault Tolerance
+ - Cost Opt
+ - Relliability
+* What AWS service warns you when you're near hitting service limits     :TA:
+Trusted Advisor
+* Cloud Watch vs Cloud Trail                              :distinction:CW:CT:
+Cloud trail: what was used, by who -- Auditing
+Cloudwatch: Metrics, resource usage, load, volume
+* Personal Health Dashboard                                         :PHD:def:
+About impersonal problems :)
+Tells you about AWS issues -- outages, slowdowns -- that might affect your service
+* Can CloudWatch Logs log events from on-premises servers? 
+Yes.  With cloudwatch agent installed, same as EC2 instances
+* AWS Systems Manage is what?                                        :SM:def:
+Allows applying  AWS routine operational tasks to grouped resources
+Has visual tools for monitoring groups of resources
+Groups might be dev/prod
+As opposed to Opworks: OpW lets you automate with non-aws tools
+
+Mnemonic: Amazing Spider Man has  GRaVITAS -GRoup VIsualize Take Actions
+* AWS config                                                         :Config:
+Service that can monitor the configuation of other services and send alerts
+if configuartion not as desired
+
+
+
+* AWS services associted with compliance
+AWS Artifact is the ma
+* Definition: AWS Inspector                                    :def:Insp:
+Asseses security vulnerabiities 
+* Versions of DDOS protection features                                  :SHD:
+Shield and Shield Advanced
+Shied is free, Shield Advanced gives you access to live help, extra charge
+* Guard Duty                                                         :def:GD:
+AWS Guard Duty uses machine learning to contintuously monitor for events in your 
+* What type of credentials needed for API access to AWS  :authentication:API:
+For Test: An "access key ID" Key and a "Secret Access Key"
+
+Optionally, MFA -- which requires short-term credentials, Session Token or Assume Role
+[[https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_configure-api-require.html][Configuring MFA-Protected API Access]]
+
+Context: username/passwod for console
+
+Mnemonic:  A Klepto Is Swiping AWS Keys
+
+* Define AWS Macie                                                :Macie:def:
+Machine learning-powered monitor for PII leaks from S3
+Mnemonic: A bad guy MAY SEE your privates
+* Macie is a 1) Global 2) AZ . . . scoped service               :Macie:multi:
+** Global                                                             :wrong:
+** Regional                                                           :right:
+** AZ                                                                 :wrong:
+** IAM group                                                          :wrong:
+* Distinguish: Network ACL and Security Group                       :NACL:SG:
+NACL allows blocking traffic at subnet level
+SG blocks at instance level
+
+SG stops trafic before a NACL could see it
+Corollary: If Instance firewall stops traffic on certain ports, only inside-a-VPN generated traffic could hit the NACL
+* Do Security Groups filter traffic between ec2 hosts in the same subnet? :SG:
+Yes
+  
