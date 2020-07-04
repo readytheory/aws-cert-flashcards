@@ -1,0 +1,2 @@
+* In Well Architcect Framework what is a workload?                  :def:WAF:
+A collection of decoupled componenets
