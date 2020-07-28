@@ -1,4 +1,4 @@
-* About this file and tag directory
+* About this file and tag directory:                                  
   - this is source to make flashcards for aws.
   - the stuff like :def:WAF: is tags -- "definition", "Well Architected Framework"
   - hosted at github, pull requests welcome.  Any contribution will be CC0 -- free to reuse/repurpose/remix, no attribution needed; and this file is available under CC0 terms (https://creativecommons.org/share-your-work/public-domain/cc0/)
@@ -9,12 +9,12 @@ WAF: AWS Well Architected Framewok
 TA: AWS Trusted Advisor
 Insp: AWS Inspector
 PHD: AWS Personal Health Dashboard
+Elasticsearch
 Config: AWS Config
 def: definition card
 multi: this is a multiple choice item
 right: for multi, the choice is correct
 wrong: similar to right, but wrong
-
 
 ** usage
 This is meant to search as a dataset for making flashcards, quizzes, games. 
@@ -23,49 +23,268 @@ This is meant to search as a dataset for making flashcards, quizzes, games.
  - Association words for quizlet gravity game
 
 
+* What is used for operation analytics::                              :drill:
+  :PROPERTIES:
+  :ID:       a2550eaf-9e57-488e-b2bb-73dc29bea1f4
+  :END:
+** Answer
+Elasticsearch
+*** Tags                                                                 :ES:
+* What Tag helps track expenses:                                      :drill:
+  :PROPERTIES:
+  :ID:       384112f8-9fcd-45d1-828b-72e447ae3cb3
+  :END:
+** Answer
+Cost allocation tags (enabled in billing)
+* On Reserved EC2 can you change OS?:                                 :drill:
+  :PROPERTIES:
+  :ID:       fb865167-eda9-4a29-958c-219e97cba4e7
+  :END:
+** Answer
+On convertible, not standard
+* On reserved EC2 does customer pay less if "list price" goes down?:  :drill:
+  :PROPERTIES:
+  :ID:       192a0026-8090-4115-a13b-13d3a01be10a
+  :END:
+** Answer
+Not on standdard but on convertibe
 
 
-* In Well Architected Framework what is a workload?                 :def:WAF:
+
+
+* Distinguish SES, SNS, SQS                                   :def:WAF:drill:
+  :PROPERTIES:
+  :ID:       790b7bc5-dd03-43b4-9826-b9c00d45c58c
+  :END:
+** Answer
+Email, Notification, Queue
+* Well Architected Framework: what is a workload?                     :drill:
+  :PROPERTIES:
+  :ID:       cf0c6d29-5433-44b7-bb69-4488c9b09094
+  :END:
+** Answer
 A collection of decoupled componenets
-* Keywords for Trusted Advisor
+* Keywords for Trusted Advisor                                        :drill:
+  :PROPERTIES:
+  :ID:       a6ac0941-070a-4c72-94fe-98ac9d37c78f
+  :END:
+** Answer
  - Best Pactices learned from working with customers
  - Security
  - Fault Tolerance
  - Cost Opt
  - Relliability
-* What AWS service warns you when you're near hitting service limits     :TA:
+
+* Types of AWS Object Lifecycle Management actions                    :drill:
+  :PROPERTIES:
+  :ID:       9756c6ed-4605-49f1-806d-125ef3a5ccc4
+  :END:
+** Answer
+Transition and Expiration
+* What AWS service warns you when you're near hitting service limits :drill:
+  :PROPERTIES:
+  :ID:       345166ba-c9b9-4388-854a-eee51a19504e
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:41]
+  :END:
+** Answer
 Trusted Advisor
-* Cloud Watch vs Cloud Trail                              :distinction:CW:CT:
-Cloud trail: what was used, by who -- Auditing
-Cloudwatch: Metrics, resource usage, load, volume
-* Personal Health Dashboard                                         :PHD:def:
-About impersonal problems :)
-Tells you about AWS issues -- outages, slowdowns -- that might affect your service
-* Can CloudWatch Logs log events from on-premises servers? 
+* What is EFS                                                         :drill:
+  :PROPERTIES:
+  :ID:       3c8ef38c-33dc-4f47-8fae-6eeb7b92d736
+  :END:
+** Answer
+Elastic file system
+* Distnguish: Cloud Watch vs Cloud Trail                        :CW:CT:drill:
+  :PROPERTIES:
+  :ID:       80a63ca4-18ab-44d1-bef5-40f711372c62
+  :END:
+** Cloudwatch
+PERFORMANCE  metrics and health ALERTS
+** Cloudtrail
+All API requests are logged in cloudtrail -- this is a full-account service
+* Automatically  move s3 to different storage class after X days   :drill:s3:
+  SCHEDULED: <2020-07-31 Fri>
+  :PROPERTIES:
+  :ID:       2937ea25-688f-4510-8742-4c3239a5726d
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-07-27 Mon 16:23]
+  :END:
+What feature allows for moving to cheaper storage/deleting s3?
+** Answer
+Object Lifecycle Management
+  - Transitions
+  - Expiration
+*** Tags                                                                 :s3:
+
+* Name the service                   :PHD:def:drill:
+  SCHEDULED: <2020-08-01 Sat>
+  :PROPERTIES:
+  :ID:       fd42fac7-aa76-44ae-8693-447c769d9ac5
+  :DRILL_CARD_TYPE: twosided
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:41]
+  :END:
+Name or describe this service:
+** Name
+Personal Health
+** Description
+It tells you about network problems out of your control
+
+* Can CloudWatch Logs log events from on-premises servers?            :drill:
+  :PROPERTIES:
+  :ID:       298552ec-69e3-48fd-8697-dad7dce65578
+  :END:
+** Answer
 Yes.  With cloudwatch agent installed, same as EC2 instances
-* AWS Systems Manage is what?                                        :SM:def:
+* AWS Systems Manage is what?                                  :SM:def:drill:
+  :PROPERTIES:
+  :ID:       d4f818c1-b557-474f-b57e-bc0437dbcaba
+  :END:
+
+** Answer
+
 Allows applying  AWS routine operational tasks to grouped resources
 Has visual tools for monitoring groups of resources
 Groups might be dev/prod
 As opposed to Opworks: OpW lets you automate with non-aws tools
-
+** Mnemonic
 Mnemonic: Amazing Spider Man has  GRaVITAS -GRoup VIsualize Take Actions
-* AWS config                                                         :Config:
-Service that can monitor the configuation of other services and send alerts
+* Which service has edge locations                                    :drill:
+  :PROPERTIES:
+  :ID:       611f74f2-ef12-4e6c-a24e-7bf17ab2a8bc
+  :END:
+
+** Answer
+Cloud Front
+  - Data cached in edge locations near user
+
+* Name the service                                                    :drill:
+  SCHEDULED: <2020-08-01 Sat>
+  :PROPERTIES:
+  :ID:       7b607d8a-ae0f-44f9-a6d1-3d601d7dc4b9
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:40]
+  :END:
+Description: Service that can monitor the configuation of other services and send alerts
 if configuartion not as desired
 
+** Answer 
+AWS config
 
 
-* AWS services associted with compliance
+* Is External ID secret?                                              :multi:Role:IAM :drill:
+  SCHEDULED: <2020-07-31 Fri>
+  :PROPERTIES:
+  :ID:       81a3bc40-afe5-4511-b9c0-4c4de16d1583
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-07-27 Mon 15:47]
+  :END:
+1) Never                                              
+2) For cross-account access only                                       
+3) Only on Enterprise accont                                           
+4) Specified by User at creation time
+
+** Answer
+1) The Extenal Id is not secret
+External Ids are used to restrict who can use roles
+When the role-user assumes a role, it uses your external id
+You set your account to need that specific external id
+
+* AWS services associted with compliance                              :drill:
+  :PROPERTIES:
+  :ID:       45744628-d3a7-4259-9a09-974018d91f8c
+  :END:
+** Answer
 AWS Artifact is the ma
-* Definition: AWS Inspector                                    :def:Insp:
+
+* Advantages of Direct connect                                        :drill:
+  :PROPERTIES:
+  :ID:       784e0c5a-5903-4d54-be8b-2b041203b1c9
+  :END:
+** Answer
+  - Predicability: it uses private connection, not the internet
+  - NOT THE INTERENT
+  - disadvanages: expensive, time to set up
+* Definition: AWS Inspector                                  :def:Insp:drill:
+  :PROPERTIES:
+  :ID:       e1b27466-46d4-4452-bba2-eb1cb5064176
+  :END:
+** Answer
 Asseses security vulnerabiities 
-* Versions of DDOS protection features                                  :SHD:
+
+* Two cache locations for CloudFront                                  :drill:
+  :PROPERTIES:
+  :ID:       3963ad53-b7a8-49e9-a5be-a0a3e7b63659
+  :END:
+** Answer
+  - Edge Location
+  - Regional Edge Cache
+* Versions of DDOS protection features                            :SHD:drill:
+  :PROPERTIES:
+  :ID:       31eb24e9-e316-47fa-a531-c510d33bec7f
+  :END:
+** Answer
 Shield and Shield Advanced
 Shied is free, Shield Advanced gives you access to live help, extra charge
-* Guard Duty                                                         :def:GD:
+* Does Direct Connect give you direct connection to EC2 over internet? :DC:drill:
+  :PROPERTIES:
+  :ID:       04df97bf-1996-448b-823a-d7024cbda022
+  :END:
+** Answer
+No.  AWS Direct connect connects your on-premises machines to
+you AWS VPC via a direct -- not Internet -- connection.
+
+* Guard Duty                                                   :def:GD:drill:
+  :PROPERTIES:
+  :ID:       945367bb-701a-4ce5-b0b5-d16175691836
+  :END:
+** Def
 AWS Guard Duty uses machine learning to contintuously monitor for events in your 
-* What type of credentials needed for API access to AWS  :authentication:API:
+* True of False: AWS transfer acceleration reduces S3 Upload and Download times :TF:drill:
+  :PROPERTIES:
+  :ID:       35c5d123-1c2d-4eba-aae3-e73984ef1be0
+  :END:
+** Answer
+False -- only upload
+* What type of credentials needed for API access to AWS :authentication:API:drill:
+  :PROPERTIES:
+  :ID:       f816e30a-2f40-4413-a59e-2db093d1d510
+  :END:
+** Answer
+  :PROPERTIES:
+  :ID:       ff4a535a-4617-44f8-a2e9-c2d683d177c4
+  :END:
 For Test: An "access key ID" Key and a "Secret Access Key"
 
 Optionally, MFA -- which requires short-term credentials, Session Token or Assume Role
@@ -75,20 +294,77 @@ Context: username/passwod for console
 
 Mnemonic:  A Klepto Is Swiping AWS Keys
 
-* Define AWS Macie                                                :Macie:def:
+* Define AWS Macie                                          :Macie:def:drill:
+  :PROPERTIES:
+  :ID:       0c320b2b-1666-453f-98f8-cb4f610fba1a
+  :END:
+** Answer
 Machine learning-powered monitor for PII leaks from S3
 Mnemonic: A bad guy MAY SEE your privates
-* Macie is a 1) Global 2) AZ . . . scoped service               :Macie:multi:
-** Global                                                             :wrong:
-** Regional                                                           :right:
-** AZ                                                                 :wrong:
-** IAM group                                                          :wrong:
-* Distinguish: Network ACL and Security Group                       :NACL:SG:
+* Macie scope                                             :Macie:multi:drill:
+  SCHEDULED: <2020-08-01 Sat>
+  :PROPERTIES:
+  :ID:       99b2e6cd-5a35-4dc5-94f3-20289ee37db6
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:42]
+  :END:
+Scope of Macie service is:
+  - Global                                                             
+  - Regional                                                           
+  - AZ                                                                 
+  - IAM group                                                          
+** Answer
+Regionl.  It must be enabled in each region in which you choose to use it.
+* Distinguish: Network ACL and Security Group                 :NACL:SG:drill:
+  :PROPERTIES:
+  :ID:       a43dcb83-741c-4857-b208-4effe10e312c
+  :END:
+** Answer
 NACL allows blocking traffic at subnet level
 SG blocks at instance level
 
 SG stops trafic before a NACL could see it
 Corollary: If Instance firewall stops traffic on certain ports, only inside-a-VPN generated traffic could hit the NACL
-* Do Security Groups filter traffic between ec2 hosts in the same subnet? :SG:
-Yes
+* Do Security Groups filter traffic between ec2 hosts in the same subnet? :SG:drill:
+  :PROPERTIES:
+  :ID:       9d92a1d6-978f-41d1-851c-6a22ede3ade4
+  :END:
+** Answer
+Yes  (on the other hand NACL's don't)
   
+* What is Opsworks?                                                :OW:drill:
+  :PROPERTIES:
+  :ID:       55149ddd-cb91-4a77-af4d-b3e8358bfa27
+  :END:
+** Answer
+Key: Managed
+It is AWS managed version chef and puppet configuration management
+ - allows patching
+* What is Organizations                                               :drill:
+  :PROPERTIES:
+  :ID:       7b4b0883-0af1-44da-966e-bfdf08cd7366
+  :END:
+** Answer
+It allows multiple account
+* What is Quick Start Reference depoyments                            :drill:
+  :PROPERTIES:
+  :ID:       bfeb8a85-9904-451f-b7f9-2216c82c594a
+  :END:
+** Answer
+  -  paramaterized popular pkgs, Sharepoint
+* Differentiate: inspector, guard duty, WAF                           :drill:
+  :PROPERTIES:
+  :ID:       8448307a-90d4-45e7-adf2-fadab0f55786
+  :END:
+** Answer
+  - AWS inspector:
+    - monitors configurations for known security vulnerabilities -- rule driven
+  - Guard Duty
+    - monitors external threats, Machine Leaerning, Continuously analying traffic
+  - WAF firewall -- realitime monitoring to create fine-grained alerts
