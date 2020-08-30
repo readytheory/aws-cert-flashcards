@@ -1,9 +1,4 @@
-* About this file and tag directory:                                  
-  - this is source to make flashcards for aws.
-  - the stuff like :def:WAF: is tags -- "definition", "Well Architected Framework"
-  - hosted at github, pull requests welcome.  Any contribution will be CC0 -- free to reuse/repurpose/remix, no attribution needed; and this file is available under CC0 terms (https://creativecommons.org/share-your-work/public-domain/cc0/)
-  - the format is emacs org format, conversion scripts welcome
-
+* About this file and tag directory
 ** Tags
 WAF: AWS Well Architected Framewok
 TA: AWS Trusted Advisor
@@ -22,52 +17,336 @@ This is meant to search as a dataset for making flashcards, quizzes, games.
  - multi/right/wrong: can have any number of wrong and any number of right answer, hypothetical script would make questions selecting just one, or using "all that apply"
  - Association words for quizlet gravity game
 
+* What does Enterprise support offer that business does not?          :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       d21a323a-9a3f-45c5-b958-597cfa67c6bd
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:56]
+  :END:
+** Answer
+  - Well Architect reviews
+  - Operational Reviews
+  - Technical Account Manager
+* What class of supprt do you get on Developer Plan?                  :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       d0e529ce-8805-4c61-9f46-680d60a43d39
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:01]
+  :END:
+** ansswer 
+ - Cloud Support Manager
 
-* What is used for operation analytics::                              :drill:
+* What is a Techical Account Manager                                  :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       21eb1f9c-cddd-4f3e-a04d-18f9c274e6e6
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:37]
+  :END:
+** answer
+ - like an ombudsman
+ - Proactively monitors
+ - Gets you to right contact
+* Titles of support for Enterpise, Busniess, Dev accts                :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       e4329b6e-6b2a-4026-9890-cd38714d19e6
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:37]
+  :END:
+** Answer
+  Enterprise and Business: Both Cloud Support engineers
+  Developer: Cloud support associates
+  Enterprise only: TAM
+* missing keywords: Trusted advisor                                   :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       96af5028-82de-402e-882b-06c62fef4fc4
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:15]
+  :END:
+
+Trusted Advisor is rule based tool to provide recommendations on:
+
+    Cost Optimization, [Fault Tolerance], [Performance], Security, Service Limits
+
+* missing keywords: Trusted advisor                                   :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       368f7ab5-435e-47b7-9dd9-7f17bfca940d
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:16]
+  :END:
+
+Trusted Advisor is rule based tool to provide recommendations on:
+
+    [Cost Optimization], [Fault Tolerance], Performance, Security, Service Limits
+
+
+* missing keywords: Trusted advisor                                   :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       154c6fa0-4545-4b46-b772-db2e5f2948e4
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:16]
+  :END:
+
+Trusted Advisor is rule based tool to provide recommendations on:
+
+    Cost Optimization, [Fault Tolerance], Performance, Security, [Service Limits]
+
+* missing keywords: Trusted advisor                                   :drill:
+  SCHEDULED: <2020-09-04 Thu>
+  :PROPERTIES:
+  :ID:       d0659d8e-f57a-4ebe-9932-c8c585fb8ff0
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:13]
+  :END:
+
+Trusted Advisor is rule based tool to provide recommendations on:
+
+    Cost Optimization, Fault Tolerance, [Performance], [Security], Service Limits
+
+* Define ABAC                                                         :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       2d92d33a-ecd0-4e5f-8d28-3a791356969d
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:59]
+  :END:
+** Answer:
+  Tag-based access control -- mnemonic is Attribut-based implemented with tags.
+As opposed to RBAC
+* Two classes of accounts in Organizationsc                           :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       77f05921-2400-4ba8-9aee-f99243cf36e1
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:43]
+  :END:
+** Answer
+   - linked accounts
+   - paying account
+THe paying account should only be used to pay not deploy resources
+* Buzz Words for Elasticsearch -- OI and OA                           :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       c868f42e-e907-4f60-9f5a-63fb5cb75c26
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:46]
+  :END:
+** Answer
+Operational Analytics / Operational Intelligence
+* What are ways to authenticate to IAM                                :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       a6b4ad95-aa6f-4bab-90d4-6307bb011bee
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:53]
+  :END:
+** Answer
+(odd) Server Certificates
+Password 
+keys
+MFA 
+* What are opex charges                                               :drill:
+  SCHEDULED: <2020-09-02 Wed>
+  :PROPERTIES:
+  :ID:       4a3b683f-3d0f-482d-b2f1-186eb0739661
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:44]
+  :END:
+** Answer:
+Operating expense - as distinct from  Capital Expense
+Opex can be deducted from earnings immediately, capex must depreciate
+Consumer pays OPEX for cloud services
+For private network typically Capex (large, multi-year expense)
+* What is used for operational analytics::                            :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       a2550eaf-9e57-488e-b2bb-73dc29bea1f4
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:37]
   :END:
 ** Answer
 Elasticsearch
 *** Tags                                                                 :ES:
 * What Tag helps track expenses:                                      :drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       384112f8-9fcd-45d1-828b-72e447ae3cb3
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:45]
   :END:
+
 ** Answer
 Cost allocation tags (enabled in billing)
-* On Reserved EC2 can you change OS?:                                 :drill:
+these appear on bills
+* On Reserved EC2 can you change OS?:                                 :drill:question
   :PROPERTIES:
   :ID:       fb865167-eda9-4a29-958c-219e97cba4e7
   :END:
+
 ** Answer
 On convertible, not standard
+*** Question - how does it work if you let reservation lapse, have to restart same type?
 * On reserved EC2 does customer pay less if "list price" goes down?:  :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       192a0026-8090-4115-a13b-13d3a01be10a
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:58]
   :END:
+
 ** Answer
 Not on standdard but on convertibe
 
 
 
-
-* Distinguish SES, SNS, SQS                                   :def:WAF:drill:
+* Distinguish SES, SNS, SQS                           :def:drill:SES:SNS:SQS:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       790b7bc5-dd03-43b4-9826-b9c00d45c58c
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:37]
   :END:
+
 ** Answer
 Email, Notification, Queue
 * Well Architected Framework: what is a workload?                     :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       cf0c6d29-5433-44b7-bb69-4488c9b09094
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:57]
   :END:
+
 ** Answer
 A collection of decoupled componenets
 * Keywords for Trusted Advisor                                        :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       a6ac0941-070a-4c72-94fe-98ac9d37c78f
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:01]
   :END:
+
 ** Answer
  - Best Pactices learned from working with customers
  - Security
@@ -76,64 +355,25 @@ A collection of decoupled componenets
  - Relliability
 
 * Types of AWS Object Lifecycle Management actions                    :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       9756c6ed-4605-49f1-806d-125ef3a5ccc4
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:57]
   :END:
+
 ** Answer
 Transition and Expiration
 * What AWS service warns you when you're near hitting service limits :drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       345166ba-c9b9-4388-854a-eee51a19504e
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:41]
-  :END:
-** Answer
-Trusted Advisor
-* What is EFS                                                         :drill:
-  :PROPERTIES:
-  :ID:       3c8ef38c-33dc-4f47-8fae-6eeb7b92d736
-  :END:
-** Answer
-Elastic file system
-* Distnguish: Cloud Watch vs Cloud Trail                        :CW:CT:drill:
-  :PROPERTIES:
-  :ID:       80a63ca4-18ab-44d1-bef5-40f711372c62
-  :END:
-** Cloudwatch
-PERFORMANCE  metrics and health ALERTS
-** Cloudtrail
-All API requests are logged in cloudtrail -- this is a full-account service
-* Automatically  move s3 to different storage class after X days   :drill:s3:
-  SCHEDULED: <2020-07-31 Fri>
-  :PROPERTIES:
-  :ID:       2937ea25-688f-4510-8742-4c3239a5726d
-  :DRILL_LAST_INTERVAL: 3.86
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 3.0
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2020-07-27 Mon 16:23]
-  :END:
-What feature allows for moving to cheaper storage/deleting s3?
-** Answer
-Object Lifecycle Management
-  - Transitions
-  - Expiration
-*** Tags                                                                 :s3:
-
-* Name the service                   :PHD:def:drill:
-  SCHEDULED: <2020-08-01 Sat>
-  :PROPERTIES:
-  :ID:       fd42fac7-aa76-44ae-8693-447c769d9ac5
-  :DRILL_CARD_TYPE: twosided
   :DRILL_LAST_INTERVAL: 4.0
   :DRILL_REPEATS_SINCE_FAIL: 2
   :DRILL_TOTAL_REPEATS: 1
@@ -141,24 +381,179 @@ Object Lifecycle Management
   :DRILL_AVERAGE_QUALITY: 4.0
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:41]
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:49]
   :END:
+
+** Answer
+Trusted Advisor
+* What is EFS                                                         :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       3c8ef38c-33dc-4f47-8fae-6eeb7b92d736
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:45]
+  :END:
+
+** Answer
+Elastic file system
+* What are the components of the Well Architected Framwork            :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       589bdd5a-d417-42c7-9834-6f4cf184e43d
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:59]
+  :END:
+
+** Answer
+Pillars:
+ - Operational Excellene
+ - Security
+ - Reliability
+ - Cost efficiency
+ - Performance Effeciency
+
+Mnemonic: CORPS
+* Performance Efficiency Pillar Compoents                             :drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :ID:       1b66be7c-06b5-46c3-a1f6-a1e589897f2b
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.333
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:57]
+  :END:
+
+** Answer
+ - Democratize advanced technologies
+ - Go global in minutes
+ - Use serverless architectures
+ - Experiment more often
+ - Consider mechanical sympathy
+
+* Distnguish: Cloud Watch vs Cloud Trail                        :CW:CT:drill:
+  SCHEDULED: <2020-09-02 Wed>
+  :PROPERTIES:
+  :ID:       80a63ca4-18ab-44d1-bef5-40f711372c62
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:47]
+  :END:
+
+** Cloudwatch
+Keywords for cloudwatch?
+** Answer
+PERFORMANCE  metrics and health ALERTS
+** Cloudtrail
+All API requests are logged in cloudtrail -- this is a full-account service
+* Automatically  move s3 to different storage class after X days   :drill:s3:
+  SCHEDULED: <2020-09-07 Mon>
+  :PROPERTIES:
+  :ID:       2937ea25-688f-4510-8742-4c3239a5726d
+  :DRILL_LAST_INTERVAL: 8.7892
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:28]
+  :END:
+
+What feature allows for moving to cheaper storage/deleting s3?
+** Answer
+Object Lifecycle Management
+  - Transitions
+  - Expiration
+*** Tags                                                                 :s3:
+
+* Name the service                                                :def:drill:
+  SCHEDULED: <2020-09-02 Wed>
+  :PROPERTIES:
+  :ID:       39940cab-c635-4ce0-b148-b958faebf138
+  :DRILL_LAST_INTERVAL: 3.725
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:29]
+  :END:
+  :PROPERTIES:
+  :ID:       fd42fac7-aa76-44ae-8693-447c769d9ac
+  :DRILL_CARD_TYPE: twosided
+  :END:
+
 Name or describe this service:
+
 ** Name
 Personal Health
+
 ** Description
 It tells you about network problems out of your control
 
 * Can CloudWatch Logs log events from on-premises servers?            :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
+  :ID:       31fd62a9-5a0a-4e19-99e7-667ce8ded08b
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:46]
+  :END:
+  :PROPERTIES:
+
   :ID:       298552ec-69e3-48fd-8697-dad7dce65578
   :END:
 ** Answer
 Yes.  With cloudwatch agent installed, same as EC2 instances
+* Name the 6 Advantages of Cloud
+** Answer
+Capital expenses for Variable
+Massive Econonmies of Scale
+Stop Guessing about capacity (scale)
+Incease speed and agillity (limitless resources)
+Stop running data centers
+Go global in minutes
 * AWS Systems Manage is what?                                  :SM:def:drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       d4f818c1-b557-474f-b57e-bc0437dbcaba
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:00]
   :END:
+
 
 ** Answer
 
@@ -169,8 +564,17 @@ As opposed to Opworks: OpW lets you automate with non-aws tools
 ** Mnemonic
 Mnemonic: Amazing Spider Man has  GRaVITAS -GRoup VIsualize Take Actions
 * Which service has edge locations                                    :drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       611f74f2-ef12-4e6c-a24e-7bf17ab2a8bc
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:51]
   :END:
 
 ** Answer
@@ -178,18 +582,19 @@ Cloud Front
   - Data cached in edge locations near user
 
 * Name the service                                                    :drill:
-  SCHEDULED: <2020-08-01 Sat>
+  SCHEDULED: <2020-09-07 Mon>
   :PROPERTIES:
   :ID:       7b607d8a-ae0f-44f9-a6d1-3d601d7dc4b9
-  :DRILL_LAST_INTERVAL: 4.0
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 4.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:40]
+  :DRILL_LAST_INTERVAL: 8.7892
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:26]
   :END:
+
 Description: Service that can monitor the configuation of other services and send alerts
 if configuartion not as desired
 
@@ -198,18 +603,19 @@ AWS config
 
 
 * Is External ID secret?                                              :multi:Role:IAM :drill:
-  SCHEDULED: <2020-07-31 Fri>
+  SCHEDULED: <2020-09-09 Wed>
   :PROPERTIES:
   :ID:       81a3bc40-afe5-4511-b9c0-4c4de16d1583
-  :DRILL_LAST_INTERVAL: 4.14
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 11.1407
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 0
   :DRILL_AVERAGE_QUALITY: 5.0
-  :DRILL_EASE: 2.6
+  :DRILL_EASE: 2.7
   :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2020-07-27 Mon 15:47]
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:27]
   :END:
+
 1) Never                                              
 2) For cross-account access only                                       
 3) Only on Enterprise accont                                           
@@ -222,64 +628,145 @@ When the role-user assumes a role, it uses your external id
 You set your account to need that specific external id
 
 * AWS services associted with compliance                              :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       45744628-d3a7-4259-9a09-974018d91f8c
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:46]
   :END:
+
 ** Answer
 AWS Artifact is the ma
 
 * Advantages of Direct connect                                        :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       784e0c5a-5903-4d54-be8b-2b041203b1c9
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:44]
   :END:
 ** Answer
   - Predicability: it uses private connection, not the internet
   - NOT THE INTERENT
   - disadvanages: expensive, time to set up
 * Definition: AWS Inspector                                  :def:Insp:drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       e1b27466-46d4-4452-bba2-eb1cb5064176
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:43]
   :END:
 ** Answer
-Asseses security vulnerabiities 
-
+Asseses security vulnerabiities, deviation from best practic, rule-based, AWS researchers maintain rules
 * Two cache locations for CloudFront                                  :drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       3963ad53-b7a8-49e9-a5be-a0a3e7b63659
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:52]
   :END:
 ** Answer
   - Edge Location
   - Regional Edge Cache
 * Versions of DDOS protection features                            :SHD:drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       31eb24e9-e316-47fa-a531-c510d33bec7f
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:15]
   :END:
 ** Answer
 Shield and Shield Advanced
 Shied is free, Shield Advanced gives you access to live help, extra charge
 * Does Direct Connect give you direct connection to EC2 over internet? :DC:drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       04df97bf-1996-448b-823a-d7024cbda022
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:49]
   :END:
 ** Answer
 No.  AWS Direct connect connects your on-premises machines to
 you AWS VPC via a direct -- not Internet -- connection.
 
 * Guard Duty                                                   :def:GD:drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       945367bb-701a-4ce5-b0b5-d16175691836
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:40]
   :END:
 ** Def
-AWS Guard Duty uses machine learning to contintuously monitor for events in your 
+AWS Guard Duty uses machine learning to contintuously monitor for malicious external threats
 * True of False: AWS transfer acceleration reduces S3 Upload and Download times :TF:drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       35c5d123-1c2d-4eba-aae3-e73984ef1be0
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:52]
   :END:
 ** Answer
 False -- only upload
 * What type of credentials needed for API access to AWS :authentication:API:drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       f816e30a-2f40-4413-a59e-2db093d1d510
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:52]
   :END:
 ** Answer
   :PROPERTIES:
@@ -295,24 +782,33 @@ Context: username/passwod for console
 Mnemonic:  A Klepto Is Swiping AWS Keys
 
 * Define AWS Macie                                          :Macie:def:drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       0c320b2b-1666-453f-98f8-cb4f610fba1a
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:46]
   :END:
 ** Answer
 Machine learning-powered monitor for PII leaks from S3
 Mnemonic: A bad guy MAY SEE your privates
 * Macie scope                                             :Macie:multi:drill:
-  SCHEDULED: <2020-08-01 Sat>
+  SCHEDULED: <2020-09-07 Mon>
   :PROPERTIES:
   :ID:       99b2e6cd-5a35-4dc5-94f3-20289ee37db6
-  :DRILL_LAST_INTERVAL: 4.14
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 9.43
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 5.0
-  :DRILL_EASE: 2.6
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.46
   :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2020-07-28 Tue 06:42]
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:26]
   :END:
 Scope of Macie service is:
   - Global                                                             
@@ -322,8 +818,17 @@ Scope of Macie service is:
 ** Answer
 Regionl.  It must be enabled in each region in which you choose to use it.
 * Distinguish: Network ACL and Security Group                 :NACL:SG:drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       a43dcb83-741c-4857-b208-4effe10e312c
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:51]
   :END:
 ** Answer
 NACL allows blocking traffic at subnet level
@@ -332,35 +837,80 @@ SG blocks at instance level
 SG stops trafic before a NACL could see it
 Corollary: If Instance firewall stops traffic on certain ports, only inside-a-VPN generated traffic could hit the NACL
 * Do Security Groups filter traffic between ec2 hosts in the same subnet? :SG:drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       9d92a1d6-978f-41d1-851c-6a22ede3ade4
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:46]
   :END:
 ** Answer
 Yes  (on the other hand NACL's don't)
   
 * What is Opsworks?                                                :OW:drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       55149ddd-cb91-4a77-af4d-b3e8358bfa27
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:52]
   :END:
 ** Answer
 Key: Managed
 It is AWS managed version chef and puppet configuration management
  - allows patching
 * What is Organizations                                               :drill:
+  SCHEDULED: <2020-09-08 Tue>
   :PROPERTIES:
   :ID:       7b4b0883-0af1-44da-966e-bfdf08cd7366
+  :DRILL_LAST_INTERVAL: 10.0
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:45]
   :END:
 ** Answer
 It allows multiple account
 * What is Quick Start Reference depoyments                            :drill:
+  SCHEDULED: <2020-09-02 Wed>
   :PROPERTIES:
   :ID:       bfeb8a85-9904-451f-b7f9-2216c82c594a
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-29 Sat 15:48]
   :END:
 ** Answer
   -  paramaterized popular pkgs, Sharepoint
 * Differentiate: inspector, guard duty, WAF                           :drill:
+  SCHEDULED: <2020-09-03 Thu>
   :PROPERTIES:
   :ID:       8448307a-90d4-45e7-adf2-fadab0f55786
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 10:36]
   :END:
 ** Answer
   - AWS inspector:
@@ -368,3 +918,29 @@ It allows multiple account
   - Guard Duty
     - monitors external threats, Machine Leaerning, Continuously analying traffic
   - WAF firewall -- realitime monitoring to create fine-grained alerts
+
+
+
+* Monitoring service                                         :twosided:drill:
+  SCHEDULED: <2020-09-03 Thu>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       80ca6b2b-932e-49d2-ab1e-9d7f31566eb3
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:40]
+  :END:
+
+** Service Desciption
+
+   It continuously monitors DNS Logs, cloudTrail, and VPC flow logs?  It also has static protections (e.g. know maliciouis IP addrs)
+
+** Service Name
+
+   Guard Duty: What does it monitor
+
